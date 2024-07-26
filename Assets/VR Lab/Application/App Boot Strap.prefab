@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &163766
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 422304}
+  - 114: {fileID: 11462928}
+  m_Layer: 0
+  m_Name: App Boot Strap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &422304
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163766}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11462928
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d45f6a099dd8c349828e09aaab2f1ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildForCardboard: 0
+  isMainScene: 0
+  cameraFadeScreenPrefab: {fileID: 147134, guid: 91a69e975ed1010438ede2fe6bd13222,
+    type: 2}
+  cardboardCameraPrefab: {fileID: 100004, guid: b8b03d395f5734e98af91ccf44f9bf47,
+    type: 2}
+  oculusCameraPrefab: {fileID: 170414, guid: 9471d7f0772f7b648a1919e6ca45bef6, type: 2}
+  reticlePrefab: {fileID: 193910, guid: 7a7cee75c254f2049acccd20cfd1e6d9, type: 2}
+  lookdownMenuPrefab: {fileID: 105362, guid: 173d081ad8063114b8029dfd6abc2a30, type: 2}
+  lookdownNotifierPrefab: {fileID: 162264, guid: d4a285bf34c4daf43a4f4a313f097c9e,
+    type: 2}
+  mainScenePrefab: {fileID: 194122, guid: 5e2cdb1009f64b7429b4f3c42a0440c1, type: 2}
+  mountainPrefab: {fileID: 135108, guid: 5467f9f00201d324784c2e519f54b5a5, type: 2}
+  forestPrefab: {fileID: 133270, guid: 9e4cf7fad9fd2b84bb5df27f0748ae5b, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: oculusCameraPrefab
+      value: 
+      objectReference: {fileID: 120214, guid: 9471d7f0772f7b648a1919e6ca45bef6, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 163766}
+  m_IsPrefabParent: 1
